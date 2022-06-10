@@ -9,7 +9,7 @@ public struct TreeView: View {
     }
     
     public var body: some View {
-        Image("Tree \(guessesRemaining)", bundle: Bundle.init(for: ApplePieGameViewModel.self))
+        Image("Tree \(guessesRemaining)", bundle: Bundle.module)
             .resizable()
             .scaledToFit()
     }
