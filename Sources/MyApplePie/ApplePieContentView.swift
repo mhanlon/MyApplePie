@@ -4,6 +4,8 @@ import SwiftUI
 public struct ApplePieContentView: View {
     @StateObject private var game = ApplePieGameViewModel()
     
+    public init() {}
+    
     public var body: some View {
         VStack {
             TreeView(guessesRemaining: $game.guessesRemaining)
