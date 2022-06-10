@@ -1,7 +1,7 @@
 import SwiftUI
 
 @available(iOS 14.0, *)
-public struct ContentView: View {
+public struct ApplePieContentView: View {
     @StateObject private var game = ApplePieGameViewModel()
     
     public var body: some View {
